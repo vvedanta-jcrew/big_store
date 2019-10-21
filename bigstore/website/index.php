@@ -5,7 +5,7 @@
 
 	<body>
 		<h1>Welcome to the B.I.G store!</h1>
-		<h1>Mens:</h1>
+		<h1>Men:</h1>
 		<ul>
 			<?php
 				$json = file_get_contents('http://product-service');
@@ -18,7 +18,7 @@
 			?>
 		</ul>
 	</body>
-		<h1>Womens:</h1>
+		<h1>Women:</h1>
 		<ul>
 			<?php
 				$json = file_get_contents('http://product-service');
